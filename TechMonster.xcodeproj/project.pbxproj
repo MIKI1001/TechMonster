@@ -30,6 +30,8 @@
 		214206DD1BD3663500C57E64 /* SE_attack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 214206CB1BD3663500C57E64 /* SE_attack.mp3 */; };
 		214206DE1BD3663500C57E64 /* SE_fanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 214206CC1BD3663500C57E64 /* SE_fanfare.mp3 */; };
 		214206DF1BD3663500C57E64 /* SE_gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 214206CD1BD3663500C57E64 /* SE_gameover.mp3 */; };
+		217566EE1BE5DAE600A05373 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217566ED1BE5DAE600A05373 /* ViewController.swift */; };
+		217566F01BE5DB1700A05373 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217566EF1BE5DB1700A05373 /* LobbyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		214206CB1BD3663500C57E64 /* SE_attack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SE_attack.mp3; sourceTree = "<group>"; };
 		214206CC1BD3663500C57E64 /* SE_fanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SE_fanfare.mp3; sourceTree = "<group>"; };
 		214206CD1BD3663500C57E64 /* SE_gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SE_gameover.mp3; sourceTree = "<group>"; };
+		217566ED1BE5DAE600A05373 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		217566EF1BE5DB1700A05373 /* LobbyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 			children = (
 				214206B61BD3663500C57E64 /* TechMon_Resources */,
 				214206961BD365CE00C57E64 /* AppDelegate.swift */,
+				217566ED1BE5DAE600A05373 /* ViewController.swift */,
+				217566EF1BE5DB1700A05373 /* LobbyViewController.swift */,
 				2142069A1BD365CE00C57E64 /* Main.storyboard */,
 				2142069D1BD365CE00C57E64 /* Images.xcassets */,
 				2142069F1BD365CE00C57E64 /* LaunchScreen.xib */,
@@ -318,8 +324,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				217566EE1BE5DAE600A05373 /* ViewController.swift in Sources */,
 				214206D91BD3663500C57E64 /* Player.swift in Sources */,
 				214206DA1BD3663500C57E64 /* TechDraUtility.swift in Sources */,
+				217566F01BE5DB1700A05373 /* LobbyViewController.swift in Sources */,
 				214206971BD365CE00C57E64 /* AppDelegate.swift in Sources */,
 				214206D81BD3663500C57E64 /* Enemy.swift in Sources */,
 			);
