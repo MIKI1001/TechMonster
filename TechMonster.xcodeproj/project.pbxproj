@@ -30,6 +30,8 @@
 		214206DD1BD3663500C57E64 /* SE_attack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 214206CB1BD3663500C57E64 /* SE_attack.mp3 */; };
 		214206DE1BD3663500C57E64 /* SE_fanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 214206CC1BD3663500C57E64 /* SE_fanfare.mp3 */; };
 		214206DF1BD3663500C57E64 /* SE_gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 214206CD1BD3663500C57E64 /* SE_gameover.mp3 */; };
+		215BE4891BF83C6F0047C11B /* monster004.png in Resources */ = {isa = PBXBuildFile; fileRef = 215BE4871BF83C6F0047C11B /* monster004.png */; };
+		215BE48A1BF83C6F0047C11B /* monster009.png in Resources */ = {isa = PBXBuildFile; fileRef = 215BE4881BF83C6F0047C11B /* monster009.png */; };
 		217566EE1BE5DAE600A05373 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217566ED1BE5DAE600A05373 /* ViewController.swift */; };
 		217566F01BE5DB1700A05373 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217566EF1BE5DB1700A05373 /* LobbyViewController.swift */; };
 /* End PBXBuildFile section */
@@ -71,6 +73,8 @@
 		214206CB1BD3663500C57E64 /* SE_attack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SE_attack.mp3; sourceTree = "<group>"; };
 		214206CC1BD3663500C57E64 /* SE_fanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SE_fanfare.mp3; sourceTree = "<group>"; };
 		214206CD1BD3663500C57E64 /* SE_gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SE_gameover.mp3; sourceTree = "<group>"; };
+		215BE4871BF83C6F0047C11B /* monster004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monster004.png; path = ../../monster004.png; sourceTree = "<group>"; };
+		215BE4881BF83C6F0047C11B /* monster009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monster009.png; path = ../../monster009.png; sourceTree = "<group>"; };
 		217566ED1BE5DAE600A05373 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		217566EF1BE5DB1700A05373 /* LobbyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +183,8 @@
 			children = (
 				214206BE1BD3663500C57E64 /* battlebg.png */,
 				214206BF1BD3663500C57E64 /* bgimage.jpg */,
+				215BE4871BF83C6F0047C11B /* monster004.png */,
+				215BE4881BF83C6F0047C11B /* monster009.png */,
 				214206C01BD3663500C57E64 /* falcon.png */,
 				214206C11BD3663500C57E64 /* gold_button.png */,
 				214206C21BD3663500C57E64 /* lobby.png */,
@@ -303,8 +309,10 @@
 				214206DD1BD3663500C57E64 /* SE_attack.mp3 in Resources */,
 				214206DF1BD3663500C57E64 /* SE_gameover.mp3 in Resources */,
 				2142069E1BD365CE00C57E64 /* Images.xcassets in Resources */,
+				215BE48A1BF83C6F0047C11B /* monster009.png in Resources */,
 				214206D31BD3663500C57E64 /* bgimage.jpg in Resources */,
 				214206CF1BD3663500C57E64 /* Default-667h@2x.png in Resources */,
+				215BE4891BF83C6F0047C11B /* monster004.png in Resources */,
 				214206D41BD3663500C57E64 /* falcon.png in Resources */,
 				214206D01BD3663500C57E64 /* Default-736h@3x.png in Resources */,
 			);

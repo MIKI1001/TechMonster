@@ -40,10 +40,9 @@ class LobbyViewController: UIViewController, AVAudioPlayerDelegate {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(true)
-        util.playBGM("Lobby")
+        util.playBGM("lobby")
     }
-    
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillDisappear(animated: Bool) {
         util.stopBGM()
     }
 
